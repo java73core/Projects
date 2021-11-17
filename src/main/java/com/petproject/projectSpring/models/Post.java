@@ -11,7 +11,8 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String title, anons, fullText;
+    private String title;
+    private String  anons, fullText;
     private  int views;
 
     public Long getId() {
