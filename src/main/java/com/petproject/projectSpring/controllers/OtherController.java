@@ -1,3 +1,5 @@
+package com.petproject.projectSpring.controllers;
+
 import com.petproject.projectSpring.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
